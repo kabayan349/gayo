@@ -3,11 +3,8 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo color("red","                    BANDIT VOCER\n");
-echo color("green","                 Banditz 32 channel\n");
-echo color("red","                 LOSS DOLL RAK REWEL\n") ;
 echo color("yellow","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("green","                    B-32 TEAM       \n");
+echo color("green","                    BANG JALI MUMET NDASE      \n");
 echo color("red","          Format Kode 08/62 loss karepmu\n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
@@ -51,8 +48,8 @@ echo color("red","          Format Kode 08/62 loss karepmu\n");
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
         echo color("green","\n▬▬▬▬▬▬▬▬▬▬▬▬ COLI COLI ▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","Crott A..");
-        echo "\n".color("white"," Please wait");
+        echo "\n".color("white","RANDA SIJI..");
+        echo "\n".color("white"," WAHIDAH...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(5);
@@ -65,8 +62,8 @@ echo color("red","          Format Kode 08/62 loss karepmu\n");
         }else{
         echo "\n".color("white"," Message: ".$message);
 	gocar:
-        echo "\n".color("white"," Croot B.. ");
-        echo "\n".color("white"," Please wait");
+        echo "\n".color("white"," RANDA LORO ");
+        echo "\n".color("white"," SANAH..");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(35);
@@ -79,8 +76,8 @@ echo color("red","          Format Kode 08/62 loss karepmu\n");
         }else{
         echo "\n".color("white"," Message: ".$message);
         gofood:
-        echo "\n".color("white"," Croot C..");
-        echo "\n".color("white"," Please wait");
+        echo "\n".color("white"," RANDA TELU..");
+        echo "\n".color("white"," ENI MBUAPA");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(3);
