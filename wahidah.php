@@ -51,7 +51,7 @@ echo color("red","          Format Kode 08/62 loss karepmu\n");
         save("token.txt",$token);
         echo color("red","\n▬▬▬▬▬▬▬▬▬▬▬▬* BANDAR LAMPUNG *▬▬▬▬▬▬▬▬▬▬▬▬");
      echo "\n".color("blue","⏩ MANTAN KE 1");
-        echo "\n".color("white","🔎 minta jatah terus ");
+        echo "\n".color("yellow","🔎 minta jatah terus ");
         for($a=1;$a<=3;$a++){
         echo color("purple",".");
         sleep(30);
@@ -65,7 +65,7 @@ echo color("red","          Format Kode 08/62 loss karepmu\n");
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gofood:
         echo "\n".color("blue","⏩ MANTAN KE 2");
-        echo "\n".color("white","🔎 manjanya kebangetan ");
+        echo "\n".color("yellow","🔎 manjanya kebangetan ");
         for($a=1;$a<=3;$a++){
         echo color("purple",".");
         sleep(15);
@@ -78,26 +78,7 @@ echo color("red","          Format Kode 08/62 loss karepmu\n");
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gocar:
-        echo "\n".color("blue","⏩ MANTAN KE 3");
-        echo "\n".color("white","🔎 pernah 1 bantal.");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(10);
-        }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
-        $message = fetch_value($code1,'"message":"','"');
-        echo "\n".color("white","🔓▶️ Message: ".$message);
-        echo "\n".color("blue","⏩ MANTAN KE 4");
-        echo "\n".color("white","🔎tukang cemburu");
-        for($a=1;$a<=3;$a++){
-        echo color("white",".");
-        sleep(5);
-        }
-        sleep(10);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
-        $messageboba09 = fetch_value($boba09,'"message":"','"');
-        echo "\n".color("blue","# Message: ".$messageboba09);
-        sleep(3);
+                sleep(3);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=13&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
         $voucher1 = getStr1('"title":"','",',$cekvoucher,"1");
