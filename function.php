@@ -7,11 +7,12 @@ $header[] = "User-Agent: okhttp/3.10.0";
 $header[] = "Accept: application/json";
 $header[] = "Accept-Language: en-EN";
 $header[] = "Content-Type: application/json; charset=UTF-8";
-$header[] = "X-AppVersion: 3.51.4";
+$header[] = "X-AppVersion: 3.56.1";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
-$header[] = "X-Location: -7.38".mt_rand(1000,9999).",112.73".mt_rand(1000,9999);
+$header[] = "X-Location: -7.32".mt_rand(1000,9999).",112.73".mt_rand(1000,9999);
+$header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
     endif;
