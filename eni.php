@@ -1,11 +1,9 @@
 <?php 
 date_default_timezone_set('Asia/Jakarta');
 include "function1.php";
-// echo color("white","Token: ");
-// $token = trim(fgets(STDIN));
-
-$myfile = fopen("sessions.txt", "r") or die("Unable to open file!");
-$token = fread($myfile,filesize("sessions.txt"));
+echo
+echo color("white"," 🔫Token: ");
+$token = trim(fgets(STDIN));
 echo "\n".color("white","?] Mau Rendeem Jimat?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
